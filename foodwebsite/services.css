@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+    background-color: rgb(209, 201, 201);
+}
+ul{
+    left: 0px;
+    top: 0px;
+    color: white;
+    list-style-type: none;
+}
+li a{
+    display: inline;
+    padding: 14px 17px;
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+background-color:rgb(54, 232, 197);
+border-radius: 4px;
+color: black;
+}
+
+.text{
+    color:white;
+    font-weight: bolder;
+    padding: 89px 22px;
+    width: 600px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} 
+form {
+    
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 72vh;
+  }
+  input{
+    width: 300px;
+    height: 32px;
+  }
+  button{
+    width: 59px;
+    height: 32px;
+    margin-left: 2px;
+  }
